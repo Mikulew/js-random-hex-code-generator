@@ -30,3 +30,4 @@ These color hex codes have been an integral part of HTML for web design, and rem
 - [HEX CODE for Dummies (The Non-Technical Guide) (Base-16)](https://www.youtube.com/watch?v=6cJd7eyYBFs)
 - [What is a HEX Code?](https://www.youtube.com/watch?v=9OdWGTUSMDE)
 - [What the heck is a Hex Code?](https://www.youtube.com/watch?v=HpmcXUJ6cN4)
+- [MDN: Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)

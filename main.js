@@ -17,8 +17,7 @@ function generateHexCode() {
 }
 
 function copyHexCode() {
-  output.select();
-  document.execCommand("copy");
+  navigator.clipboard.writeText(output.value);
   toast.style.transform = "translateX(0)";
   setTimeout(() => toast.style.transform = "translateX( calc(100% + 10px) )", 2000);
 }
