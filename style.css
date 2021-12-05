@@ -2,7 +2,7 @@
   --yangColor: #d8c21e;
   --yinColor: #111111;
   --borderRadius: 10px;
-  --animation: .3s ease;
+  --animation: 0.3s ease;
 }
 
 html {
@@ -12,7 +12,9 @@ html {
   height: 100%;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   font-family: inherit;
   box-sizing: inherit;
   margin: 0;
@@ -110,7 +112,7 @@ html {
 }
 
 .color-animation {
-  animation: showColor .8s;
+  animation: showColor 0.8s;
 }
 
 .toast {
@@ -121,7 +123,7 @@ html {
   right: 10px;
   color: var(--yangColor);
   transition: var(--animation);
-  transform: translateX(calc( 100% + 10px ));
+  transform: translateX(calc(100% + 10px));
   border: 3px solid var(--yangColor);
   border-radius: var(--borderRadius);
 }
